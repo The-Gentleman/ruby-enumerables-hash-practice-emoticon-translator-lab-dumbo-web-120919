@@ -13,9 +13,6 @@ def load_library(yaml)
    translator_hash[:get_emoticon][value[0]] = value[1]
   end 
 
-  
-  
-  
 translator_hash 
 end  
 # pp emoticon_hash = 
@@ -33,7 +30,7 @@ end
 # "surprised"=>[":o", "o_O"],
 # "wink"=>[";)", "(^_-)"]}
 
-def get_japanese_emoticon()
+def get_japanese_emoticon(path, emoticon)
   # code goes here
 end
 
