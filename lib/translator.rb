@@ -31,8 +31,8 @@ end
 # "wink"=>[";)", "(^_-)"]}
 
 def get_japanese_emoticon(path, emoticon)
-  load_library(path)
-  
+  hash = load_library(path)
+  hash[emoticon]
   
 end
 
