@@ -32,7 +32,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   hash = load_library(path)
-  hash[emoticon]
+  hash[:get_meaning][emoticon]
   
 end
 
