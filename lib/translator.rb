@@ -9,7 +9,7 @@ def load_library(yaml)
     :get_emoticon => {}
     }
   emoticon_hash.each do |key, value| 
-  # binding.pry
+   translator_hash[:get_meaning][value[1]] = true
   end 
 
   
