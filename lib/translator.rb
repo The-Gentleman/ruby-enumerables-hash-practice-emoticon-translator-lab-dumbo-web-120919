@@ -11,6 +11,7 @@ def load_library(yaml)
   emoticon_hash.each do |key, value| 
    translator_hash[:get_meaning][value[1]] = key
    translator_hash[:get_emoticon][value[0]] = value[1]
+  binding.pry
   end 
 
   
