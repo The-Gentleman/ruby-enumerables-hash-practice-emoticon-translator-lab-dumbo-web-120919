@@ -41,5 +41,7 @@ end
 
 def get_english_meaning(path, emoticon)
   hash = load_library(path)
-  if hash[:get_meaning][emoticon]
+  if  hash[:get_meaning][emoticon]
+  
+  end 
 end
